@@ -1,0 +1,4 @@
+# flyctl launch added from .gitignore
+**/config/database.yml
+**/db/*.sqlite3
+fly.toml
