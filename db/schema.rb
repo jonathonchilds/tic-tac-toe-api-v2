@@ -12,6 +12,9 @@
 
 ActiveRecord::Schema.define(version: 2021_02_18_222301) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "games", force: :cascade do |t|
     t.text "board"
     t.string "winner", limit: 3

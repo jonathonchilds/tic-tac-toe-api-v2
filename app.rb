@@ -8,9 +8,8 @@ if ENV["PORT"]
   set :port, ENV["PORT"]
 end
 
-if ENV["RACK_ENV"] != "production"
   set :database_file, "./config/database.yml"
-end
+
 
 configure do
   enable :cross_origin
