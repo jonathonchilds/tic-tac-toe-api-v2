@@ -4,7 +4,7 @@ ruby "2.6.6"
 
 source "https://rubygems.org"
 
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+git_source(:github) {|repo_name| "https://github.com/jonathonchilds/tic-tac-toe-api-v2" }
 
 gem "sinatra", "~> 2.1"
 gem "rack-contrib", "~> 2.3"
